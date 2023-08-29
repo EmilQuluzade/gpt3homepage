@@ -1,38 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+@import url(./Reset.css);
+
 .App {
-  text-align: center;
+  font-family: 'Bacasime Antique', serif;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #040C18;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  width: 100%;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.navlinks {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding-left: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gpt3logo {
+  font-size: 18 px;
+  font-weight:700 ;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+align-items: center;
+gap: 20px;
+padding-right: 150px;
+}
+
+.buttons .nobgbutton {
+text-decoration: none;
+color: white;
+}
+
+
+.propbutton {
+  font-size: 17px;
+padding: 15px 35px;
+background-color: #FF4820;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.formbutton {
+  font-size: 20px;
+font-weight: 700;
+padding:29px 26px 26px 30px;
+}
+
+.introduction {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introtext > h1 {
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 61px;
+  font-weight: 800;
+  line-height: 100px;
+  letter-spacing: -2px;
+}
+
+.introtext > p {
+  color: #81AFDD;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.inputpart  .inputtext {
+  width: 440px;
+  height: 73px;
+font-size: 30px;
+padding-left: 16px;
+border-radius: 5px 0px 0px 5px;
+background: #052D56;
+border: none;
+}
+
+::placeholder{
+  color: hsla(210, 36%, 38%, 1);
+  opacity: 1;
+}
+
+.profiles {
+  display: flex;
+  color: white;
+  gap: 20px;
+  padding-top: 5px;
+  align-items: center;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 110px;
+padding-bottom: 120px;
+}
+
+.companies img {
+  min-width: 110px;
+}
+
+.information {
+  background-color: #052c55;
+  margin: 0 130px;
+}
+
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+}
+
+.line {
+  width: 38px;
+height: 3px;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+}
+
+.header{
+  padding-right: 70px;
+}
+
+.miniheader{
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.miniheader h2 , .linebros {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+
+.header p {
+  padding-top: 70px;
+  color: #81AFDD;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.informationmiddle {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  padding-right: 70px;
+  padding-left: 60px;
+}
+
+.informationmiddle h3 {
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+font-weight: 800;
+line-height: 45px;
+}
+
+.informationmiddle h6{
+  color: #FF8A71;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+
+.informationbottom{
+padding-top: 90px;
+display: flex;
+justify-content: space-between;
+padding-right: 70px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.blocks p {
+  color:#81AFDD ;
+  padding-top: 40px;
+  line-height: 25px;
 }
