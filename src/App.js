@@ -2,6 +2,7 @@ import './App.css';
 import Ads from './Components/Ads';
 import Blogs from './Components/Blogs';
 import Companies from './Components/Companies';
+import Footer from './Components/Footer';
 import Information from './Components/Information';
 import Introduction from './Components/Introduction';
 import Middlepart from './Components/Middlepart';
@@ -19,6 +20,7 @@ function App() {
       <Simplemiddle/>
       <Ads/>
       <Blogs/>
+      <Footer/>
     </div>
   );
 }

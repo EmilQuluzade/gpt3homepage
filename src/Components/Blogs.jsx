@@ -12,7 +12,7 @@ const Blogs = () => {
 We are blogging about it.</h1>
 <div className="blogcards">
   <div className="line1">
-<img src={Blogpic1} alt="" />
+<img src={Blogpic1} className='cardimg' alt="" />
 <div className="linetexts">
 <div className="linestart">
 <span className="date">Sep 26, 2021</span>
@@ -21,8 +21,50 @@ We are blogging about it.</h1>
 <span className="link">Read Full Article</span>
 </div>
   </div>
-  <div className="line2"></div>
-  <div className="line3"></div>
+  <div className="line2">
+<div className="blogcardmini">
+<img src={Blogpic2} className='cardimg' alt="" />
+<div className="linetexts">
+<div className="linestart">
+<span className="date">Sep 26, 2021</span>
+<h4>GPT-3 and Open  AI is the<br/> future. Let us explore how it<br/> is?</h4>
+</div>
+<span className="link">Read Full Article</span>
+</div>
+</div>
+<div className="blogcardmini">
+<img src={Blogpic3} className='cardimg' alt="" />
+<div className="linetexts">
+<div className="linestart">
+<span className="date">Sep 26, 2021</span>
+<h4>GPT-3 and Open  AI is the<br/> future. Let us explore how it<br/> is?</h4>
+</div>
+<span className="link">Read Full Article</span>
+</div>
+</div>
+  </div>
+  <div className="line3">
+  <div className="blogcardmini">
+<img src={Blogpic4} className='cardimg' alt="" />
+<div className="linetexts">
+<div className="linestart">
+<span className="date">Sep 26, 2021</span>
+<h4>GPT-3 and Open  AI is the<br/> future. Let us explore how it<br/> is?</h4>
+</div>
+<span className="link">Read Full Article</span>
+</div>
+</div>
+<div className="blogcardmini">
+<img src={Blogpic5} className='cardimg' alt="" />
+<div className="linetexts">
+<div className="linestart">
+<span className="date">Sep 26, 2021</span>
+<h4>GPT-3 and Open  AI is the<br/> future. Let us explore how it<br/> is?</h4>
+</div>
+<span className="link">Read Full Article</span>
+</div>
+</div> 
+  </div>
 </div>
     </div>
   )

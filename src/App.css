@@ -357,6 +357,20 @@ font-weight: 800;
 
 .blogs {
   padding-top: 180px;
+  padding-bottom: 150px;
+}
+
+.blogcards {
+  display: flex;
+  gap: 100px;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.line2 , .line3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .blogs h1 {
@@ -375,6 +389,7 @@ background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
   height: 700px;
   width: 400px;
   background-color: #042C54;
+  border-top-left-radius: 50px;
 }
 
 .linetexts {
@@ -385,7 +400,7 @@ background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
   padding-bottom: 250px;
 }
 
-.line1 img {
+.cardimg {
   width: 100%;
 }
 
@@ -399,4 +414,107 @@ background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
 
 .link {
   margin-top: 300px !important;
+}
+
+.blogcardmini {
+  width: 330px;
+  height: 330px;
+  background-color:#042C54;
+  border-top-left-radius: 50px;
+}
+
+.linetexts span {
+  color: #FFF;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.947px;
+}
+
+.footer {
+  background-color:#042C54;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h1 {
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -2.48px;
+padding-top: 175px;
+}
+
+.endlinks {
+  display: flex;
+  gap: 200px;
+}
+
+.lastbutton button {
+  margin-top: 80px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  transition: all .2s ease;
+}
+
+.lastbutton button:hover {
+  background-color: #FFF;
+  color: #042C54;
+}
+
+
+.logoandaddress h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.logoandaddress span {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.linkblocks {
+  display: flex;
+  gap: 200px;
+}
+
+.endlinkblock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.endlinkblock h4 {
+color: #FFF;
+font-size: 14px;
+font-weight: 400;
+}
+
+.endlinkblock a, span {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.endtitle {
+color: #FFF;
+font-size: 12px;
+font-weight: 400;
+padding-top: 50px;
+padding-bottom: 50px;
 }
