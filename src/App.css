@@ -263,3 +263,140 @@ h4 {
   color: #81AFDD;
   line-height: 24px;
 }
+
+.simplemiddle {
+  display: flex;justify-content: space-between;
+  align-items: center;
+  padding: 0 350px;
+  padding-top: 50px;
+}
+
+.simplemiddleright{
+  padding-top: 170px;
+}
+
+.simplemiddleright h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #71E5FF;
+  padding-bottom: 20px;
+}
+
+.simplemiddleright h2 {
+  font-size: 34px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 45px;
+  padding-bottom: 25px;
+}
+
+.simplemiddleright p {
+color: #81AFDD;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 30px;
+}
+
+.simplemiddleright h5 {
+color: #FF8A71;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.ads {
+  width: 1300px;
+  height: 170px;
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.adsbox {
+  padding-left: 50px;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.ads h5 {
+color: #0E0E0E;
+font-size: 12px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.ads h2 {
+color: #0E0E0E;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+font-weight: 800;
+}
+
+.ads button {
+  padding: 12px 41px 16px 45px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-right: 100px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.blogs {
+  padding-top: 180px;
+}
+
+.blogs h1 {
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -2.48px;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 330px;
+}
+
+.line1 {
+  height: 700px;
+  width: 400px;
+  background-color: #042C54;
+}
+
+.linetexts {
+  padding-left: 10px;
+}
+
+.line1 h4 {
+  padding-bottom: 250px;
+}
+
+.line1 img {
+  width: 100%;
+}
+
+.line1 span {
+  color: #FFF;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.947px;
+}
+
+.link {
+  margin-top: 300px !important;
+}
