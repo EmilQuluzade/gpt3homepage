@@ -1,6 +1,7 @@
 import './App.css';
 import Ads from './Components/Ads';
 import Blogs from './Components/Blogs';
+import Circles from './Components/Circles';
 import Companies from './Components/Companies';
 import Footer from './Components/Footer';
 import Information from './Components/Information';
@@ -21,6 +22,7 @@ function App() {
       <Ads/>
       <Blogs/>
       <Footer/>
+      <Circles/>
     </div>
   );
 }

@@ -6,6 +6,7 @@
   font-family: 'Manrope', sans-serif;
   font-family: 'Poppins', sans-serif;
   background-color: #040C18;
+
 }
 
 .navbar {
@@ -15,6 +16,8 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 70px;
+  position: relative;
+  z-index: 3;
 }
 
 .navlinks {
@@ -44,6 +47,8 @@
 align-items: center;
 gap: 20px;
 padding-right: 150px;
+position: relative;
+  z-index: 3;
 }
 
 .buttons .nobgbutton {
@@ -73,6 +78,8 @@ padding:29px 26px 26px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
 .introtext > h1 {
@@ -122,6 +129,8 @@ border: none;
   gap: 100px;
   padding-top: 110px;
 padding-bottom: 120px;
+position: relative;
+  z-index: 3;
 }
 
 .companies img {
@@ -131,6 +140,8 @@ padding-bottom: 120px;
 .information {
   background-color: #052c55;
   margin: 0 130px;
+  position: relative;
+  z-index: 3;
 }
 
 .header{
@@ -269,6 +280,8 @@ h4 {
   align-items: center;
   padding: 0 350px;
   padding-top: 50px;
+  position: relative;
+  z-index: 3;
 }
 
 .simplemiddleright{
@@ -320,6 +333,8 @@ border-radius: 10px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+position: relative;
+  z-index: 3;
 }
 
 .adsbox {
@@ -358,6 +373,8 @@ font-weight: 800;
 .blogs {
   padding-top: 180px;
   padding-bottom: 150px;
+  position: relative;
+  z-index: 3;
 }
 
 .blogcards {
@@ -436,6 +453,8 @@ background: linear-gradient(90deg, #AE67FA 0%, #F49867 40%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
 .footer h1 {
@@ -517,4 +536,22 @@ font-size: 12px;
 font-weight: 400;
 padding-top: 50px;
 padding-bottom: 50px;
+}
+
+.circles {
+  width: 1000px;
+  height: 1000px;
+  background-color: #002853;
+  filter: blur(282px);
+  position: absolute;
+}
+
+.circles1 {
+  top: -500px;
+  left: -500px;
+}
+
+.circles2 {
+  top: 100px;
+  right: -50px;
 }
